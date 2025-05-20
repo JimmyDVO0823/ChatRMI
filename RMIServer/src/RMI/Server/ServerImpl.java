@@ -1,8 +1,7 @@
 package RMI.Server;
 
 import Interface.IServer;
-import Model.ClientCallBack;
-
+import Interface.ClientCallBack;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;

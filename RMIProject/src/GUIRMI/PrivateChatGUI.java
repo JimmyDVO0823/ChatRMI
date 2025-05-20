@@ -131,15 +131,15 @@ public class PrivateChatGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void cmdBackChatsMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdBackChatsMenuActionPerformed
-        // TODO add your handling code here:
-        controler.goBack();
-    }//GEN-LAST:event_cmdBackChatsMenuActionPerformed
-
     private void cmdSendMessageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdSendMessageActionPerformed
         // TODO add your handling code here:
         controler.sendMessage();
     }//GEN-LAST:event_cmdSendMessageActionPerformed
+
+    private void cmdBackChatsMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdBackChatsMenuActionPerformed
+        // TODO add your handling code here:
+        controler.goBack();
+    }//GEN-LAST:event_cmdBackChatsMenuActionPerformed
 
     /**
      * @param args the command line arguments

@@ -3,6 +3,7 @@ package Model;
 import Controlers.ChatMenuControler;
 import Controlers.ISubscriber;
 import Controlers.PublicChatControler;
+import Interface.ClientCallBack;
 import Interface.IServer;
 import Model.MessageSenders.PrivateMessagesThread;
 import Model.MessageSenders.PublicMessagesThread;
